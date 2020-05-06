@@ -1,8 +1,12 @@
 {
-  "name": "mitnick/laravel-security",
+  "name": "royalcms/laravel-security",
   "type": "package",
-  "description": "Laravel-Mitnick helps you secure your Laravel apps by setting various HTTP headers. it can help!",
+  "description": "Laravel-Security helps you secure your Laravel apps by setting various HTTP headers. it can help!",
   "authors": [
+    {
+      "name": "Royal Wang",
+      "email": "hxroyal@gmail.com"
+    },
     {
       "name": "Yasser Ameur el idrissi",
       "email": "spookyframework@gmail.com"
@@ -23,19 +27,11 @@
   ],
   "license": "MIT",
   "require": {
-
-  },
-  "require-dev": {
-    "phpunit/phpunit": "^7.5"
+    "php": "^5.5"
   },
   "autoload": {
     "psr-4": {
-      "Mitnick\\Laravel\\": "src/"
-    }
-  },
-  "autoload-dev": {
-    "psr-4": {
-      "Mitnick\\Tests\\": "tests/"
+      "Royalcms\\Laravel\\Security\\": "src/Security/"
     }
   },
   "minimum-stability": "dev",
